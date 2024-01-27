@@ -1,3 +1,8 @@
 singhmohak999
 MfltaQh6mQ81QBIH
 mongodb+srv://singhmohak999:MfltaQh6mQ81QBIH@cluster0.bcyym0p.mongodb.net/
+
+//TxoqcYY1OK3QqFuD
+mongodb+srv://singhmohak999:TxoqcYY1OK3QqFuD@cluster1.1hgatql.mongodb.net/
+
+//mongodb+srv://singhmohak999:<password>@cluster1.1hgatql.mongodb.net/

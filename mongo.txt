@@ -6,3 +6,9 @@ mongodb+srv://singhmohak999:MfltaQh6mQ81QBIH@cluster0.bcyym0p.mongodb.net/
 mongodb+srv://singhmohak999:TxoqcYY1OK3QqFuD@cluster1.1hgatql.mongodb.net/
 
 //mongodb+srv://singhmohak999:<password>@cluster1.1hgatql.mongodb.net/
+
+
+//practice
+singhmohak999
+NhdYZOvwMsOmAIl1
+mongodb+srv://singhmohak999:NhdYZOvwMsOmAIl1@cluster0.r7whomm.mongodb.net/

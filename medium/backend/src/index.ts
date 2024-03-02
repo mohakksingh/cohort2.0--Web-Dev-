@@ -27,7 +27,7 @@ app.use("", async (c, next) => {
   await next();
 });
 
-app.post("/api/v1/signup", async (c) => {
+app.post("/api/v1/user/signup", async (c) => {
   const prisma = new PrismaClient({
     datasourceUrl: c.env?.DATABASE_URL,
   }).$extends(withAccelerate());
@@ -48,7 +48,7 @@ app.post("/api/v1/signup", async (c) => {
   }
 });
 
-app.post("/api/v1/signin", async (c) => {
+app.post("/api/v1/user/signin", async (c) => {
   const prisma = new PrismaClient({
     datasourceUrl: c.env?.DATABASE_URL,
   }).$extends(withAccelerate());
@@ -79,6 +79,9 @@ app.put("/api/v1/blog", (c) => {
 });
 
 app.get("/api/v1/blog/:id", (c) => {
+  return c.text("GET /api/v1/blog");
+});
+app.get("/api/v1/blog/bulk", (c) => {
   return c.text("GET /api/v1/blog");
 });
 

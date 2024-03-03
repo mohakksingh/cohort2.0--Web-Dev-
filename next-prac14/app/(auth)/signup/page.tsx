@@ -1,9 +1,5 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div>
-       root route
-    </div>
-  );
+  return <div>hi there</div>;
 }

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Circle } from "./BlogCard";
 
 export const BlogSkeleton = () => {
@@ -9,7 +9,7 @@ export const BlogSkeleton = () => {
           <div className="h-4 w-4 bg-gray-200 rounded-full mb-4"></div>
           <div className="h-2 bg-gray-200 rounded-full mb-2.5"></div>
           <div className="h-2 bg-gray-200 rounded-full mb-2.5"></div>
-          <div className="flex justify-center flex-col pl-2 flex justify-center flex-col">
+          <div className="flex justify-center flex-col pl-2 ">
             <Circle />
           </div>
           <div className="pl-2 font-light text-slate-500 text-sm flex justify-center flex-col">

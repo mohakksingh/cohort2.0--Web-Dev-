@@ -22,7 +22,7 @@ export function Signup() {
           <br />
           <input
             onChange={(e) => {
-              setPassword(e.target.value);
+              setPassword(e.target.value);    
             }}
             className="p-2 m-2"
             type="password"
